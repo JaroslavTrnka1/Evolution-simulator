@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[34]:
-
-
 import random
 import string
 import jellyfish
@@ -206,46 +200,3 @@ fig, ax = plt.subplots()
 ani = FuncAnimation(fig, prepare_animation(bar_container), frames = last_generation, interval = 400,
                                       repeat=False)
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
